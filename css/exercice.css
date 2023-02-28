@@ -30,5 +30,10 @@
 }
 
 /* 6. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  flex-flow: column-reverse wrap-reverse;
+  align-content: center;
+  justify-content: space-between;
+}
 
 /* 7. exercice-all-in-2 */
