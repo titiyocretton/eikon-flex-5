@@ -37,3 +37,17 @@
 }
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  flex-wrap: wrap;
+  align-items: baseline;
+align-content: center;
+}
+
+.exercice-all-in-2 .element-blue,
+.exercice-all-in-2 .element-pink {
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 1;
+}
